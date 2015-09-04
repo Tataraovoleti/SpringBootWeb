@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Maven + Spring MVC + @JavaConfig</title>
+<title>Spring Boot Web</title>
  
 <link href="resources/css/bootstrap.min.css" rel="stylesheet" />
 <link href="resources/css/hello.css" rel="stylesheet" />
@@ -12,7 +12,7 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
 	<div class="navbar-header">
-		<a class="navbar-brand" href="#">Spring 3 MVC Project @JavaConfig</a>
+		<a class="navbar-brand" href="#">Spring Boot MVC Project</a>
 	</div>
   </div>
 </nav>
@@ -24,10 +24,6 @@
 	<p>
 		<c:if test="${not empty message}">
 			Hello ${message}
-		</c:if>
- 
-		<c:if test="${empty name}">
-			Welcome Welcome!
 		</c:if>
     </p>
     <p>
